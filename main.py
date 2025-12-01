@@ -5,9 +5,9 @@ import requests # Para hablar con Meta
 app = FastAPI()
 
 # Tus credenciales de Meta Developers
-TOKEN_META = "TU_ACCESS_TOKEN_LARGO"
-PHONE_ID = "TU_PHONE_NUMBER_ID"
-VERIFY_TOKEN = "UNA_CLAVE_QUE_TU_INVENTAS" # Ej: "búho_secreto_123"
+TOKEN_META = "EAALp0wsiYO0BQEXTax1nH4o6DhZASH4dnBPKouw67UUSdQoJGj4DpLNtKbmHZCtDUZBlDEWZBsb1MKG5eZA5rK2ubtPD0XLVld5EMyBnWbeLRbEmpLTWzNSUY57pyJTSmVq7miFlZCZBM6kiu4W9u8WvXF0Lh164eyfFro1cVLjMWaRRPaJCZBQhlHH2XAzCg09s93TGd6inZAAa6MVGKbiqwXfNJ3ZCgk2ZCtQ07oZBO5ZBGYpFaYz9w9jqf5EWjZBN33z7SJMU0OWpSvtexvO98DgbfY"
+PHONE_ID = "967430453110890"
+VERIFY_TOKEN = "wabot" # Ej: "búho_secreto_123"
 
 # PASO 1: VERIFICACIÓN (Meta te preguntará si eres tú)
 @app.get("/webhook")
